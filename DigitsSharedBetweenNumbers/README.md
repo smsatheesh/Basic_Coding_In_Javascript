@@ -15,6 +15,7 @@ Digits Shared Between Two Numbers is a simple JavaScript program (implemented in
 2. Run the script:
 
 ```bash
+npm install readline
 node src/main.js
 ```
 

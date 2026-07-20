@@ -11,6 +11,7 @@ A simple JavaScript program that checks if a given number is an Armstrong number
 1. Ensure you have Node.js installed
 2. Run the script:
 ```bash
+npm install readline
 node src/main.js
 ```
 3. Enter a number when prompted

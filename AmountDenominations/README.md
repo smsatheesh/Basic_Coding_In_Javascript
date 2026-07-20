@@ -15,6 +15,7 @@ Amount Denominations is a simple JavaScript program (implemented in main.js) tha
 2. Run the script:
 
 ```bash
+npm install readline
 node main.js
 ```
 

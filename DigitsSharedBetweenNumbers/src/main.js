@@ -1,4 +1,4 @@
-const { getMultipleInputs: input, closeInput: close } = require("./readLine");
+const { getUserInput: input, closeInput: close } = require("./readLine");
 
 function findSharedDigits(num1, num2) {
   const digits1 = new Set(num1.toString().split(""));
