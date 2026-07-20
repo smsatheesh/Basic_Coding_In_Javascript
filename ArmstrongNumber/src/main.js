@@ -1,4 +1,4 @@
-const { getUserInput: input } = require("./readLine");
+const { getUserInput: input, closeInput: close } = require("./readLine");
 
 function getCountOfDigits(num) {
   let count = 0;
@@ -26,6 +26,8 @@ const main = async () => {
   const numberToCheck = await input(
     "Enter a number to check if it is an Armstrong number: ",
   );
+  close();
+
   const num = parseInt(numberToCheck, 10);
   if (isNaN(num) || num < 0) {
     console.log("Please enter a valid number.");

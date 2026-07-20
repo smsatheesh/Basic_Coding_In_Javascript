@@ -5,13 +5,28 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+/**
+ * Prompts the user and returns the entered value.
+ * @param {string} query
+ * @returns {Promise<string>}
+ */
 const getUserInput = (query) => {
   return new Promise((resolve) => {
     rl.question(query, (answer) => {
-      rl.close();
-      resolve(answer);
+      resolve(answer.trim());
     });
   });
 };
 
-module.exports = { getUserInput };
+/**
+ * Closes the readline interface.
+ */
+const closeInput = () => {
+  rl.close();
+};
+
+module.exports = {
+  getUserInput,
+  getMultipleInputs,
+  closeInput,
+};

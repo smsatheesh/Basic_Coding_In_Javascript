@@ -19,6 +19,16 @@ const getUserInput = (query) => {
 };
 
 /**
+ * Prompts the user and returns an array of values.
+ * Example input: "10 20 30"
+ * Returns: ["10", "20", "30"]
+ */
+const getMultipleInputs = async (query, delimiter = /\s+/) => {
+  const input = await getUserInput(query);
+  return input.split(delimiter);
+};
+
+/**
  * Closes the readline interface.
  */
 const closeInput = () => {

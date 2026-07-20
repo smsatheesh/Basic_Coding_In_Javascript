@@ -1,4 +1,4 @@
-const { getUserInput: input } = require("./readLine");
+const { getUserInput: input, closeInput: close } = require("./readLine");
 
 var rs1k, rs500, rs100, rs50, rs20, rs10, rs5, rs2, rs1;
 
@@ -100,6 +100,7 @@ function checkDenomination(amount) {
 
 const main = async () => {
   const amountToBeDenominated = await input("Enter amount: ");
+  close();
 
   const amount = parseInt(amountToBeDenominated, 10);
   if (isNaN(amount) || amount < 0) {
