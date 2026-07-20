@@ -100,6 +100,13 @@ function checkDenomination(amount) {
 
 const main = async () => {
   const amountToBeDenominated = await input("Enter amount: ");
+
+  const amount = parseInt(amountToBeDenominated, 10);
+  if (isNaN(amount) || amount < 0) {
+    console.log("Please enter a valid non-negative number.");
+    return;
+  }
+
   checkDenomination(parseInt(amountToBeDenominated));
   printDenomination();
 };

@@ -1,6 +1,6 @@
 # Amount Denominations
 
-A simple JavaScript program that breaks down a given amount into currency denominations (₹1000, ₹500, ₹100, ₹50, ₹20, ₹10, ₹5, ₹2, ₹1).
+Amount Denominations is a simple JavaScript program (implemented in main.js) that breaks down a given amount into currency denominations (₹1000, ₹500, ₹100, ₹50, ₹20, ₹10, ₹5, ₹2, ₹1).
 
 ## Features
 
@@ -48,3 +48,5 @@ TOTAL: 1867
 ## License
 
 This project is open source and available under the MIT License.
+
+Contributed by [Sm Satheesh](https://github.com/smsatheesh)
