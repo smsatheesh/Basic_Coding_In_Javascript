@@ -5,7 +5,7 @@ This project demonstrates how to calculate the frequency of each digit in a give
 ## Files
 
 - `src/main.js` - Contains the implementation
-- `src/readLine.js` - Utility for reading user input (assumed to be provided)
+- `src/readline.js` - Utility for reading user input (assumed to be provided)
 
 ## Functions
 

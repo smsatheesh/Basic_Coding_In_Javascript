@@ -16,7 +16,7 @@ Even or Odd Count in Array is a simple JavaScript program (implemented in src/ma
 2. Run the script:
 
 ```bash
-npm install readLine
+npm install readline
 node src/main.js
 ```
 

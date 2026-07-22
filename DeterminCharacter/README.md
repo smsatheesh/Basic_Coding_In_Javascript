@@ -5,7 +5,7 @@ This project demonstrates how to determine the type of a character (alphabet, nu
 ## Files
 
 - `src/main.js` - Contains the implementation
-- `src/readLine.js` - Utility for reading user input (assumed to be provided)
+- `src/readline.js` - Utility for reading user input (assumed to be provided)
 
 ## Functions
 
@@ -23,7 +23,7 @@ The main function that runs the program:
 Run the script with Node.js:
 
 ```bash
-npm install readLine
+npm install readline
 node src/main.js
 ```
 

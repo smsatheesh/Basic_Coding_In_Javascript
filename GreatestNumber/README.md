@@ -7,7 +7,7 @@ This project demonstrates two approaches to find the greatest number among a set
 ## Files
 
 - `src/main.js` - Contains the implementation
-- `src/readLine.js` - Utility for reading user input (assumed to be provided)
+- `src/readline.js` - Utility for reading user input (assumed to be provided)
 
 ## Functions
 
