@@ -1,0 +1,38 @@
+const { getUserInput: input, closeInput: close } = require("./readLine");
+
+const main = async () => {
+  console.log("Patterns Printing");
+  let number = await input("Enter number for the pattern : ");
+  number = parseInt(number, 10);
+  close();
+
+  if (isNaN(number) || number < 0) {
+    console.log("Please enter a non-negative integer");
+    return;
+  }
+
+  for (let i = 1; i <= number; i++) {
+    for (let k = number; k >= i; --k) {
+      process.stdout.write(" ");
+    }
+
+    for (let j = 1; j <= i; j++) {
+      process.stdout.write(j + " ");
+    }
+
+    console.log("\n");
+  }
+
+  for (let i = number - 1; i >= 1; i--) {
+    for (let k = number; k >= i; --k) {
+      process.stdout.write(" ");
+    }
+
+    for (let j = 1; j <= i; j++) {
+      process.stdout.write(j + " ");
+    }
+    console.log("\n");
+  }
+};
+
+main();
