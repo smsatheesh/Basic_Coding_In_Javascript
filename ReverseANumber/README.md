@@ -38,6 +38,7 @@ Enter number for reversing : 1234
 
 Output:
 ```
+Patterns Printing
 Given number is 1234 and respective reverse number is 4321
 ```
 
@@ -48,6 +49,7 @@ Enter number for reversing : 1200
 
 Output:
 ```
+Patterns Printing
 Given number is 1200 and respective reverse number is 21
 ```
 
