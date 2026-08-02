@@ -46,7 +46,7 @@ const main = async () => {
   console.log("Print number of days in month");
   let monthNumber = await input("Enter a month number : ");
   monthNumber = parseInt(monthNumber);
-  close();
+  closeInput();
 
   if (isNaN(monthNumber) || monthNumber <= 0 || monthNumber >= 13) {
     console.log(

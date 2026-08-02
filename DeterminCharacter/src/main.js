@@ -19,7 +19,7 @@ function determineCharacter(character) {
 const main = async () => {
   console.log("Determine Entered Character");
   const character = await input("Enter a valid character : ");
-  close();
+  closeInput();
 
   if (character.length > 1) {
     console.log("Please enter a character for type check");

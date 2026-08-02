@@ -17,7 +17,7 @@ const main = async () => {
   console.log("Patterns Printing");
   let number = await input("Enter number for reversing : ");
   number = parseInt(number, 10);
-  close();
+  closeInput();
 
   if (isNaN(number) || number < 0) {
     console.log(`Please enter a non-negative integer for reversing a number`);

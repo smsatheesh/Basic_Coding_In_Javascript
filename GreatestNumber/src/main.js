@@ -90,7 +90,7 @@ const main = async () => {
     }
   }
 
-  close();
+  closeInput();
   console.log("\nThank you for using the Greatest Number Finder! Bye! 👋");
 };
 

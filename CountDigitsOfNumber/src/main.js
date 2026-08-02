@@ -13,7 +13,7 @@ function countDigits(num) {
 const main = async () => {
   let userInput = await input("Enter a number to count digits: ");
   userInput = parseInt(userInput.trim(), 10);
-  close();
+  closeInput();
 
   if (isNaN(userInput) || userInput < 0) {
     console.log("Please enter a valid or non-negative integer.");

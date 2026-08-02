@@ -41,7 +41,7 @@ const main = async () => {
   console.log("Program to calculate frequency of digits in a number.");
   let number = await input("Enter a non-negative input: ");
   number = parseInt(number.trim(), 10);
-  close();
+  closeInput();
 
   if (isNaN(number)) {
     console.log("Please enter a valid number");

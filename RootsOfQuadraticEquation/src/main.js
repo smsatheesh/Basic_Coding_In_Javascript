@@ -36,7 +36,7 @@ const main = async () => {
   a = parseFloat(await input("Enter a: "));
   b = parseFloat(await input("Enter b: "));
   c = parseFloat(await input("Enter c: "));
-  close();
+  closeInput();
 
   if (isNaN(a) || isNaN(b) || isNaN(c)) {
     console.log("Please enter valid numbers for all coefficients.");

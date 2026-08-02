@@ -25,7 +25,7 @@ const main = async () => {
   console.log("Factorial Calculator");
   let number = await input("Enter a non-negative integer: ");
   number = parseInt(number);
-  close();
+  closeInput();
 
   if (isNaN(number) || number < 0) {
     console.log("Please enter a valid non-negative integer.");

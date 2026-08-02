@@ -38,7 +38,7 @@ const main = async () => {
   console.log("Swapping Digits");
   let number = await input("Enter number for swapping digits : ");
   number = parseInt(number, 10);
-  close();
+  closeInput();
 
   if (isNaN(number) || number < 0) {
     console.log(

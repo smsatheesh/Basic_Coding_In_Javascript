@@ -11,7 +11,7 @@ const main = async () => {
   console.log("Digits Shared Between Two Numbers");
   let number1 = await input("Enter the first number: ");
   let number2 = await input("Enter the second number: ");
-  close();
+  closeInput();
 
   if (
     isNaN(number1) ||

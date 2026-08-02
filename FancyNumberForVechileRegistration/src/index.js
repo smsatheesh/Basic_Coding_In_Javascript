@@ -99,7 +99,7 @@ const main = async () => {
     console.log("No fancy numbers found in the given range.");
   }
 
-  close();
+  closeInput();
 };
 
 main();

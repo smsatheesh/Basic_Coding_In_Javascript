@@ -26,7 +26,7 @@ const main = async () => {
   const numberToCheck = await input(
     "Enter a number to check if it is an Armstrong number: ",
   );
-  close();
+  closeInput();
 
   const num = parseInt(numberToCheck, 10);
   if (isNaN(num) || num < 0) {

@@ -17,7 +17,7 @@ const main = async () => {
   let num2 = await input("Enter a non-negative integer (number 2) : ");
   num1 = parseInt(num1, 10);
   num2 = parseInt(num2, 10);
-  close();
+  closeInput();
 
   if (isNaN(num1) || isNaN(num2)) {
     console.log("Please enter a valid numbers");

@@ -20,7 +20,7 @@ const main = async () => {
 
   let power = await input("Enter power for a number : ");
   power = parseInt(power, 10);
-  close();
+  closeInput();
 
   if (isNaN(number) || isNaN(power) || number < 0 || power < 0) {
     console.log(`Please enter a non-negative integer for powering`);

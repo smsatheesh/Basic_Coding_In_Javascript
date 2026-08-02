@@ -20,7 +20,7 @@ const main = async () => {
   console.log("Palindrom of Number");
   let number = await input("Enter number to check if it's Palindrome : ");
   number = parseInt(number);
-  close();
+  closeInput();
 
   if (isNaN(number) || number < 0) {
     console.log("Please enter a non-negative to number for a check");

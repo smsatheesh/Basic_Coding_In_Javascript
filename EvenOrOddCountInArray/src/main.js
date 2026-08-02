@@ -31,7 +31,7 @@ const main = async () => {
     "Enter an array of numbers (comma-separated): ",
   );
   console.log("You entered:", userInput);
-  close();
+  closeInput();
 
   const numbers = parseNumbers(userInput);
 

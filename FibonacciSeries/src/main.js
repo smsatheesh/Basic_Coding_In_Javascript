@@ -42,7 +42,7 @@ const main = async () => {
   process.stdout.write("Fibonacci Series");
   let number = await input("Enter a non-negative integer: ");
   number = parseInt(number, 10);
-  close();
+  closeInput();
 
   if (isNaN(number) || number < 0) {
     process.stdout.write("Please enter a valid or non-negative number");

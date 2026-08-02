@@ -23,12 +23,12 @@ const main = async () => {
 
   if (isNaN(option) || (option !== "1" && option !== "2")) {
     console.log("Invalid option. Please enter 1 or 2.");
-    close();
+    closeInput();
     return;
   }
 
   const temperatureInput = await input(`Enter the temperature to convert: `);
-  close();
+  closeInput();
 
   const temperature = parseFloat(temperatureInput);
   if (isNaN(temperature)) {

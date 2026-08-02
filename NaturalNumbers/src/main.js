@@ -18,7 +18,7 @@ const main = async () => {
   let end = await input("Enter end range : ");
   start = parseInt(start);
   end = parseInt(end);
-  close();
+  closeInput();
 
   if (isNaN(start) || isNaN(end) || start < 0 || end < 0) {
     console.log("Please enter a non-negative input ranges");

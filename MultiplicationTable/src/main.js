@@ -10,7 +10,7 @@ const main = async () => {
   console.log("Mutiplication of Table");
   let tableNumber = await input("Enter table number to compute : ");
   let rangeOfTable = await input("Enter range to print: ");
-  close();
+  closeInput();
 
   tableNumber = parseInt(tableNumber);
   rangeOfTable = parseInt(rangeOfTable);

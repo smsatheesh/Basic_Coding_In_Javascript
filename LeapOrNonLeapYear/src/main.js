@@ -14,7 +14,7 @@ const main = async () => {
   console.log("Check whether entered year is leap or non-leap year");
   let year = await input("Enter a year : ");
   year = parseInt(year);
-  close();
+  closeInput();
 
   if (isNaN(year) || year < 0) {
     console.log("Please enter a valid non-negative year for computation");

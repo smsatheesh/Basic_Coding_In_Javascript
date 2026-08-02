@@ -21,7 +21,7 @@ const main = async () => {
   console.log("First and Last Digit of Number and Its Sum");
   let number = await input("Enter a non-negative integer: ");
   number = parseInt(number.trim(), 10);
-  close();
+  closeInput();
 
   if (isNaN(number) || number < 0) {
     console.log("Please enter a valid non-negative integer");
